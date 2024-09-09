@@ -1,0 +1,28 @@
+[gen]
+length_of_turn = 5
+no_of_generations = 80  # максимальное количество поколений
+population_size = 50  # количество индивидуумов в популяции
+probability_of_mutation = 0.1  # вероятность мутации индивидуума
+tournSel_k = 4 # количество особей, участвующих в соревновании для скрещивания
+CXPB = 0.4 # вероятность скрещивания
+MUTPB = 0.04  # вероятность мутации
+p_one = 0.8 # вероятность появления единицы
+discreteness = 3 # на сколько позиций разбивается каждая ширина провода
+fitn_f = 'COV' # "COV" или "max_min"
+
+[geom]
+a_max = 1 # [m] Max coil radius
+a_min = 0.1  # [m] Min coil radius
+I = 1  # [A] Current
+spacing = 1.5  # spacing for calculation domain
+cp = 100  # Calculation domain points
+minimal_gap = 0.003 # Diamater of the wire
+figure = 'Circular' 
+X_side = 0.25
+Y_side = 0.25
+height = 0.25
+#coords = [[-0.5, -0.866025], [-1, 0], [-0.5, 0.866025], [0.5, 0.866025], [1, 0], [0.5, -0.866025]]
+coords = [[-0.125, 0.0], [-0.0625, 0.108253125], [0.0625, 0.108253125], [0.125, 0.0], [0.0625, -0.108253125], [-0.0625, -0.108253125]]
+calculation_area = 0.5
+freq = 200e3
+material = 'Copper'
