@@ -7,3 +7,5 @@ Optimizer of planar spiral coils' turn distribution to achieve uniform magnetic 
 * You can add functions from _Plot.py_ if you want to further visualize your results.
 * You can use functions from _Resistance.py_ if you want to get more information about your coil or split the coil into parallel circuits.
 ### Citations
+Pavel Smirnov, Aleksandr Miroshnikov, and Polina V. Kapitanova, "Arbitrary Shape Transmitting Coils Optimization for One-to-Many Free-Positioning Wireless Power Transfer Systems," Progress In Electromagnetics Research C, Vol. 155, 137-146, 2025.
+doi:10.2528/PIERC25021809
